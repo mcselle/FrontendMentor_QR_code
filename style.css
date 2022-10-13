@@ -11,7 +11,7 @@
   --font-size-p: 15px
 }
 
-body{
+body {
   font-size: var(--font-size-p);
   font-family: "Outfit";
 
@@ -25,32 +25,32 @@ body{
   justify-content: center;
 }
 
-.card
-{
-  width: 300px;
+.card {
+  width: 310px;
   background-color: var(--clr-white);
   padding: 1em;
 
+  padding-bottom: 1em;
   border-radius: 1em;
 }
 
-.card img{
+.card img {
   width: 100%;
-  border-radius: 1em;
+  border-radius: .75em;
 }
 
-.content{
-  margin: 1.25em;
+.content {
+  margin: 1em;
   text-align: center;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 
-.content h3{
+.content h3 {
   font-size: 20px;
   font-weight: 700;
 }
 
-.content p{
+.content p {
   font-size: var(--font-size-p);
-color: var(--clr-gray-blue);
+  color: var(--clr-gray-blue);
 }
